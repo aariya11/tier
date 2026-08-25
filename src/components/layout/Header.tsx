@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
           onMouseLeave={() => setCursorLabel('')}
         >
           <span className="font-display text-xl md:text-2xl font-bold tracking-tight text-[#161616] group-hover:text-[#B89065] transition-colors">
-            VANDAL ARCHIVE
+            ADVIK EWC
           </span>
           <span className="text-[9px] tracking-[0.28em] text-stone-500 font-sans uppercase -mt-0.5">
             EST. 2026 / ESPORTS

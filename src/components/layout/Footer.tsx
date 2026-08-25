@@ -46,7 +46,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-white/10 pb-16 gap-8">
           <div className="space-y-4 max-w-2xl">
             <span className="text-[10px] font-sans tracking-[0.3em] text-[#D4AF37] uppercase">
-              VANDAL ARCHIVE / COLLECTIVE STATEMENT
+              ADVIK EWC / COLLECTIVE STATEMENT
             </span>
             <h2 className="font-display text-4xl sm:text-6xl lg:text-7xl font-normal leading-[1.05] tracking-tight text-stone-100">
               PLAY LOUD.<br />
@@ -199,7 +199,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 text-[10px] font-sans tracking-[0.25em] text-stone-500 uppercase">
           <div className="flex items-center space-x-4">
-            <span>© 2026 VANDAL ARCHIVE ESPORTS</span>
+            <span>© 2026 ADVIK EWC ESPORTS</span>
             <span>•</span>
             <span>ALL RIGHTS RESERVED</span>
           </div>

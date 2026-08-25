@@ -9,12 +9,12 @@ export const SocialSection: React.FC = () => {
   const { playTick } = useSound();
 
   const socialChannels = [
-    { name: 'INSTAGRAM', handle: '@vandalarchive', url: 'https://instagram.com' },
-    { name: 'YOUTUBE', handle: 'Vandal Esports Archive', url: 'https://youtube.com' },
-    { name: 'TWITCH', handle: 'vandal_live', url: 'https://twitch.tv' },
-    { name: 'X / TWITTER', handle: '@vandal_gg', url: 'https://x.com' },
-    { name: 'DISCORD', handle: 'discord.gg/vandal', url: 'https://discord.com' },
-    { name: 'TIKTOK', handle: '@vandal_moments', url: 'https://tiktok.com' },
+    { name: 'INSTAGRAM', handle: '@advik_ewc', url: 'https://instagram.com' },
+    { name: 'YOUTUBE', handle: 'ADVIK EWC Esports', url: 'https://youtube.com' },
+    { name: 'TWITCH', handle: 'advik_ewc_live', url: 'https://twitch.tv' },
+    { name: 'X / TWITTER', handle: '@advik_ewc', url: 'https://x.com' },
+    { name: 'DISCORD', handle: 'discord.gg/advikewc', url: 'https://discord.com' },
+    { name: 'TIKTOK', handle: '@advik_ewc', url: 'https://tiktok.com' },
   ];
 
   return (

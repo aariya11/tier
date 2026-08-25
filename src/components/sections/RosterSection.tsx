@@ -171,7 +171,7 @@ export const RosterSection: React.FC = () => {
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs font-sans tracking-widest text-stone-400 uppercase gap-4">
           <div className="flex items-center space-x-2">
             <Award className="w-4 h-4 text-[#D4AF37]" />
-            <span>ALL OPERATIVES CONTRACTED UNDER VANDAL GOVERNANCE</span>
+            <span>ALL OPERATIVES CONTRACTED UNDER ADVIK EWC GOVERNANCE</span>
           </div>
           <span className="text-stone-500">SHOWING {filteredPlayers.length} OF {players.length} TOTAL PLAYERS</span>
         </div>

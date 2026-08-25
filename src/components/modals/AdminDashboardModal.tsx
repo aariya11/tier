@@ -39,7 +39,7 @@ export const AdminDashboardModal: React.FC = () => {
   const [newQuote] = useState('Silence is the ultimate clutch weapon.');
 
   // Form state for new match
-  const [newTeamA] = useState('VANDAL ARCHIVE');
+  const [newTeamA] = useState('ADVIK EWC');
   const [newTeamB, setNewTeamB] = useState('');
   const [newMatchGame, setNewMatchGame] = useState('VALORANT');
   const [newMatchTourney, setNewMatchTourney] = useState('CHAMPIONS WORLD TOUR 2026');
@@ -63,7 +63,7 @@ export const AdminDashboardModal: React.FC = () => {
       country: newCountry,
       flag: newFlag,
       mainGame: newGame,
-      team: 'VANDAL ARCHIVE',
+      team: 'ADVIK EWC',
       age: 21,
       winRate: 88,
       wins: 120,
@@ -144,7 +144,7 @@ export const AdminDashboardModal: React.FC = () => {
           <div className="bg-stone-900 border-b border-white/10 px-6 py-5 flex items-center justify-between">
             <div className="flex items-center space-x-3 text-xs font-sans tracking-widest text-[#D4AF37] uppercase">
               <Shield className="w-4 h-4" />
-              <span>VANDAL ARCHIVE // CONTENT MANAGEMENT SYSTEM</span>
+              <span>ADVIK EWC // CONTENT MANAGEMENT SYSTEM</span>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -518,7 +518,7 @@ export const AdminDashboardModal: React.FC = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-display text-2xl text-white font-bold">JOURNAL ESSAYS & INTERVIEWS</h3>
-                  <p className="text-xs font-sans text-stone-400">Editorial articles published in the quarterly VANDAL Journal.</p>
+                  <p className="text-xs font-sans text-stone-400">Editorial articles published in the quarterly ADVIK EWC Journal.</p>
                 </div>
 
                 <div className="divide-y divide-white/10">

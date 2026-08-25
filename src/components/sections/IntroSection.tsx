@@ -46,7 +46,7 @@ export const IntroSection: React.FC = () => {
           className="max-w-2xl mx-auto space-y-4 pt-4 text-stone-600 font-sans text-xs sm:text-sm leading-relaxed"
         >
           <p>
-            VANDAL ARCHIVE exists at the intersection of supreme mechanical excellence and psychological nonchalance. While the industry normalized screaming into webcams and frantic theatrics, we cultivated the icy stillness of high-fashion editorial rigor.
+            ADVIK EWC exists at the intersection of supreme mechanical excellence and psychological nonchalance. While the industry normalized screaming into webcams and frantic theatrics, we cultivated the icy stillness of high-fashion editorial rigor.
           </p>
           <p className="text-stone-500 font-serif italic text-base">
             Every fake defuse, knife duel in overtime, and nonchalant clutch is calculated down to the millisecond — delivered with absolute poise.

@@ -77,14 +77,14 @@ interface EsportsContextType {
 const EsportsContext = createContext<EsportsContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  PLAYERS: 'vandal_players_v3',
-  ACHIEVEMENTS: 'vandal_achievements_v3',
-  TROPHIES: 'vandal_trophies_v3',
-  TROLLS: 'vandal_trolls_v3',
-  MATCHES: 'vandal_matches_v3',
-  ARTICLES: 'vandal_articles_v3',
-  GALLERY: 'vandal_gallery_v3',
-  STATS: 'vandal_stats_v3',
+  PLAYERS: 'advik_ewc_players_v4',
+  ACHIEVEMENTS: 'advik_ewc_achievements_v4',
+  TROPHIES: 'advik_ewc_trophies_v4',
+  TROLLS: 'advik_ewc_trolls_v4',
+  MATCHES: 'advik_ewc_matches_v4',
+  ARTICLES: 'advik_ewc_articles_v4',
+  GALLERY: 'advik_ewc_gallery_v4',
+  STATS: 'advik_ewc_stats_v4',
 };
 
 export const EsportsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

@@ -21,7 +21,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'VALORANT',
     secondaryGame: 'CS2',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 21,
     winRate: 89,
     wins: 142,
@@ -42,11 +42,11 @@ export const initialPlayers: Player[] = [
       sens: 0.28,
     },
     socials: {
-      x: 'https://x.com/animesh_vandal',
+      x: 'https://x.com/animesh_advik',
       instagram: 'https://instagram.com/animesh.patra',
       twitch: 'https://twitch.tv/animeshfps',
       youtube: 'https://youtube.com/@animesh_esports',
-      discord: 'https://discord.gg/vandal',
+      discord: 'https://discord.gg/advikewc',
     },
     achievements: [
       { year: '2026', title: 'World Grand Finals Champion', event: 'Global Masters Tokyo', place: '1st Place', mvp: true },
@@ -69,7 +69,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'FREE FIRE',
     secondaryGame: 'BGMI',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 22,
     winRate: 41,
     wins: 28,
@@ -112,7 +112,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'FREE FIRE',
     secondaryGame: 'PUBG',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 21,
     winRate: 36,
     wins: 19,
@@ -135,7 +135,7 @@ export const initialPlayers: Player[] = [
     socials: {
       x: 'https://x.com/suryakant_swain',
       instagram: 'https://instagram.com/suryakant.swain',
-      discord: 'https://discord.gg/vandal',
+      discord: 'https://discord.gg/advikewc',
     },
     achievements: [
       { year: '2026', title: 'Hydrated Skin of the Tournament', event: 'Free Fire Pro Series', place: 'Participant' },
@@ -155,7 +155,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'FREE FIRE',
     secondaryGame: 'CS2',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 20,
     winRate: 29,
     wins: 14,
@@ -198,7 +198,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'FREE FIRE',
     secondaryGame: 'BGMI',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 21,
     winRate: 22,
     wins: 11,
@@ -210,7 +210,7 @@ export const initialPlayers: Player[] = [
     portraitUrl: '/images/rahesh.png',
     coverUrl: '/images/rahesh.png',
     signatureTrollMove: 'Room Dance Emote Mid-Firefight Knockout',
-    bio: 'Rahesh Kumar Sahoo is the ultimate party entertainer of VANDAL ARCHIVE. Instead of reloading behind cover during 1v4 squad pushes, Rahesh initiates 12-second hip-hop dance emotes, confusing opponents before getting knocked out.',
+    bio: 'Rahesh Kumar Sahoo is the ultimate party entertainer of ADVIK EWC. Instead of reloading behind cover during 1v4 squad pushes, Rahesh initiates 12-second hip-hop dance emotes, confusing opponents before getting knocked out.',
     gear: {
       mouse: 'Titanium Touch Triggers',
       keyboard: 'Custom Haptic Pad',
@@ -221,7 +221,7 @@ export const initialPlayers: Player[] = [
     socials: {
       x: 'https://x.com/rahesh_sahoo',
       instagram: 'https://instagram.com/rahesh.sahoo',
-      discord: 'https://discord.gg/vandal',
+      discord: 'https://discord.gg/advikewc',
     },
     achievements: [
       { year: '2026', title: 'Best Mid-Combat Dance Routine', event: 'Free Fire Clash Squad', place: 'Participant' },
@@ -241,7 +241,7 @@ export const initialPlayers: Player[] = [
     flag: '🇮🇳',
     mainGame: 'FREE FIRE',
     secondaryGame: 'APEX LEGENDS',
-    team: 'VANDAL ARCHIVE',
+    team: 'ADVIK EWC',
     age: 20,
     winRate: 18,
     wins: 8,
@@ -326,7 +326,7 @@ export const initialTrophies: Trophy[] = [
     league: 'GLOBAL MASTERS WORLD CHAMPIONSHIP',
     location: 'Tokyo, Japan',
     image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
-    description: 'Forged from brushed titanium and 24-karat gold leaf, lifted by Animesh Prasad Patra.',
+    description: 'Forged from brushed titanium and 24-karat gold leaf, lifted by Animesh Prasad Patra for ADVIK EWC.',
     edition: 'No. 01 / World Series',
   },
   {
@@ -336,7 +336,7 @@ export const initialTrophies: Trophy[] = [
     league: 'FREE FIRE NATIONAL INVITATIONAL',
     location: 'Mumbai, India',
     image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80',
-    description: 'Presented for unprecedented tactical Gloo Wall deployment by Satya & Squad.',
+    description: 'Presented for unprecedented tactical Gloo Wall deployment by Satya & ADVIK EWC Squad.',
     edition: 'Bermuda Title 2026',
   },
   {
@@ -372,7 +372,7 @@ export const initialTrollMoments: TrollMoment[] = [
     game: 'VALORANT',
     date: '14 May 2026',
     duration: '0:48',
-    description: 'Trailing 12-13 on Haven, Animesh stood at 1 HP against two fully-armored defenders. Instead of firing his Vandal, he threw a fake teleport decoy, pulled out his tactical butterfly knife, and executed both opponents from behind before defusing.',
+    description: 'Trailing 12-13 on Haven, Animesh stood at 1 HP against two fully-armored defenders. Instead of firing his Vandal rifle, he threw a fake teleport decoy, pulled out his tactical butterfly knife, and executed both opponents from behind before defusing.',
     views: '4.8M Views',
     clutchHp: '1 HP',
     thumbnailUrl: '/images/animesh.png',
@@ -381,7 +381,7 @@ export const initialTrollMoments: TrollMoment[] = [
     chatReactions: [
       { user: 'tarik', msg: 'BRO NO WAY ANIMESH JUST KNIFED BOTH OF THEM IN OVERTIME?!?!', time: '0:34', isMod: true },
       { user: 'shroud', msg: 'That is the most arrogant, genius play I have ever witnessed in 15 years.', time: '0:38', isMod: true },
-      { user: 'vandal_stan', msg: 'ANIMESH THE ART OF THE TROLL 🔥🔥🔥', time: '0:40' },
+      { user: 'advik_stan', msg: 'ANIMESH THE ART OF THE TROLL 🔥🔥🔥', time: '0:40' },
       { user: 'esports_insider', msg: 'He had 1 HP! ANIMESH WITH ONE HP!', time: '0:44' },
     ],
   },
@@ -404,7 +404,7 @@ export const initialTrollMoments: TrollMoment[] = [
     chatReactions: [
       { user: 'carryminati', msg: 'Bhai Satya ne khud ko hi band kar diya hahahaha 😂', time: '0:22', isMod: true },
       { user: 'total_gaming', msg: '22 Gloo walls placed in 6 seconds, incredible defense against oneself!', time: '0:26' },
-      { user: 'vandal_stan', msg: 'Tactical self-isolation at its finest 🔥', time: '0:31' },
+      { user: 'advik_stan', msg: 'Tactical self-isolation at its finest 🔥', time: '0:31' },
     ],
   },
   {
@@ -426,7 +426,7 @@ export const initialTrollMoments: TrollMoment[] = [
     chatReactions: [
       { user: 'scout', msg: 'Face mask laga ke match khel raha hai bhai! Legend!', time: '0:18', isMod: true },
       { user: 'mortal', msg: 'Skin glowing brighter than the tournament trophy ✨', time: '0:24' },
-      { user: 'vandal_army', msg: 'Hydration before combat 🧖‍♂️', time: '0:29' },
+      { user: 'advik_army', msg: 'Hydration before combat 🧖‍♂️', time: '0:29' },
     ],
   },
   {
@@ -447,7 +447,7 @@ export const initialTrollMoments: TrollMoment[] = [
     soundEffect: 'headshot_chime',
     chatReactions: [
       { user: 'jonathan', msg: 'Crate down!! Mission accomplished Rudra bhai! 😂', time: '0:19', isMod: true },
-      { user: 'vandal_hq', msg: 'The sunglasses look too good to care about accuracy 😎', time: '0:35' },
+      { user: 'advik_hq', msg: 'The sunglasses look too good to care about accuracy 😎', time: '0:35' },
     ],
   },
 ];
@@ -456,7 +456,7 @@ export const initialMatches: Match[] = [
   {
     id: 'm-01',
     status: 'UPCOMING',
-    teamA: 'VANDAL ARCHIVE',
+    teamA: 'ADVIK EWC',
     teamB: 'SENTINELS',
     game: 'VALORANT',
     tournament: 'VCT CHAMPIONS 2026 — UPPER BRACKET',
@@ -467,7 +467,7 @@ export const initialMatches: Match[] = [
   {
     id: 'm-02',
     status: 'UPCOMING',
-    teamA: 'VANDAL ARCHIVE',
+    teamA: 'ADVIK EWC',
     teamB: 'TOTAL GAMING',
     game: 'FREE FIRE',
     tournament: 'FREE FIRE WORLD SERIES 2026',
@@ -478,7 +478,7 @@ export const initialMatches: Match[] = [
   {
     id: 'm-03',
     status: 'COMPLETED',
-    teamA: 'VANDAL ARCHIVE',
+    teamA: 'ADVIK EWC',
     teamB: 'FNATIC',
     scoreA: 3,
     scoreB: 0,
@@ -493,7 +493,7 @@ export const initialMatches: Match[] = [
   {
     id: 'm-04',
     status: 'COMPLETED',
-    teamA: 'VANDAL ARCHIVE',
+    teamA: 'ADVIK EWC',
     teamB: 'GODLIKE ESPORTS',
     scoreA: 2,
     scoreB: 1,
@@ -517,14 +517,14 @@ export const initialArticles: Article[] = [
     date: 'August 18, 2026',
     readTime: '6 MIN READ',
     author: 'Julian Mercer',
-    authorRole: 'Senior Esports Editor, Vandal Journal',
+    authorRole: 'Senior Esports Editor, ADVIK EWC Journal',
     image: '/images/animesh.png',
     excerpt: 'When your heart rate spikes to 170 BPM and forty thousand spectators hold their breath in Tokyo, most players tighten their grip. Animesh loosens his fingers and smiles.',
     content: [
       'In high-stakes competitive esports, the human nervous system is the ultimate bottleneck. Milliseconds of reaction time are governed not by hand speed, but by neurochemical regulation.',
       'During the Tokyo Masters Grand Finals, biometrics revealed Animesh’s resting pulse during a 1v2 overtime knife situation dropped from 135 to 88 beats per minute. In that silence, he was no longer reacting — he was dictating terms.',
       '“Trolling is not disrespect for the opponent,” Animesh Prasad Patra told us in our Zurich editorial studio. “It is the ultimate expression of control. When you joke with the universe while standing on a razor edge, the edge disappears.”',
-      'The philosophy of VANDAL ARCHIVE has always rejected the aggressive, screaming gamer trope. It reclaims esports as an exercise in high poise, deliberate pacing, and psychological mastery.',
+      'The philosophy of ADVIK EWC has always rejected the aggressive, screaming gamer trope. It reclaims esports as an exercise in high poise, deliberate pacing, and psychological mastery.',
     ],
     pullQuote: '“When you joke with the universe while standing on a razor edge, the edge disappears.” — Animesh',
   },
@@ -539,10 +539,10 @@ export const initialArticles: Article[] = [
     author: 'Clara Delacroix',
     authorRole: 'Culture Critic',
     image: '/images/satya.png',
-    excerpt: 'While Animesh reigns supreme at +9850 points, the Free Fire division thrives in gloriously inverted mathematics.',
+    excerpt: 'While Animesh reigns supreme at +9850 points, the Free Fire division of ADVIK EWC thrives in gloriously inverted mathematics.',
     content: [
       'Satya Ranjan Pasida doesn’t panic. He deploys Gloo Walls. Sometimes 20 of them at once, locking himself into a private bunker while the circle burns outside.',
-      'Alongside Suryakant’s facial clay masks, Rudra’s rainbow sunglasses, Rahesh’s dance choreography, and Advik’s hospitable kurta flanks, the squad has redefined what it means to troll on the mobile server.',
+      'Alongside Suryakant’s facial clay masks, Rudra’s rainbow sunglasses, Rahesh’s dance choreography, and Advik’s hospitable kurta flanks, ADVIK EWC has redefined what it means to troll on the mobile server.',
     ],
     pullQuote: '“True greatness is not fearing negative rating points when the vibes are immaculate.”',
   },
@@ -559,7 +559,7 @@ export const initialArticles: Article[] = [
     image: '/images/suryakant.png',
     excerpt: 'From Animesh’s 1 HP knife clutch to Suryakant’s clay mask bush camp, how five moments redefined competitive composure.',
     content: [
-      'The 2026 season will not be remembered for meta weapons or utility balance patches. It will be remembered as the year competitive esports adopted the poise of high art and unhinged trolling.',
+      'The 2026 season will not be remembered for meta weapons or utility balance patches. It will be remembered as the year competitive esports adopted the poise of high art and unhinged trolling under ADVIK EWC.',
       'We deconstruct the five definitive frame-by-frame sequences that permanently altered how teams prepare psychologically for world championship finals.',
     ],
     pullQuote: '“The 2026 season will be remembered as the year competitive esports adopted the poise of high art.”',

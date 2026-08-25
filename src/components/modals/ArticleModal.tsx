@@ -41,7 +41,7 @@ export const ArticleModal: React.FC = () => {
           <div className="sticky top-0 z-30 bg-[#FAF7F0]/90 backdrop-blur-md border-b border-stone-300/80 px-6 py-4 flex items-center justify-between">
             <div className="flex items-center space-x-3 text-xs font-sans tracking-widest text-[#B89065] uppercase">
               <BookOpen className="w-4 h-4" />
-              <span>THE VANDAL JOURNAL • {selectedArticle.category}</span>
+              <span>THE ADVIK EWC JOURNAL • {selectedArticle.category}</span>
             </div>
 
             <button
