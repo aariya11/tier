@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  html {
+    background-color: #FDFBF7;
+    color: #161616;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F2EFE8;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D5CEBE;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B6AD9C;
+  }
+}
+
+/* Custom Editorial Typography & Utilities */
+.font-editorial-heading {
+  font-family: 'DM Serif Display', 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.font-editorial-serif {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial-mono {
+  font-family: 'Space Grotesk', monospace, sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Subtle editorial grain background */
+.editorial-grain {
+  background-image: radial-gradient(rgba(20, 20, 20, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.editorial-grain-dark {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Luxury border lines */
+.border-editorial {
+  border-color: rgba(22, 22, 22, 0.08);
+}
+
+.border-editorial-dark {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+/* Smooth custom cursor styles */
+@media (hover: hover) and (pointer: fine) {
+  .has-custom-cursor,
+  .has-custom-cursor a,
+  .has-custom-cursor button {
+    cursor: none !important;
+  }
+}
+
+/* Image zoom & hover transitions */
+.editorial-img-container {
+  overflow: hidden;
+}
+
+.editorial-img-container img {
+  transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1), filter 0.6s ease;
+}
+
+.editorial-img-container:hover img {
+  transform: scale(1.04);
+}
+
+/* Subtle gold glow */
+.gold-glow {
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+}
+
+/* Custom marquee */
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
